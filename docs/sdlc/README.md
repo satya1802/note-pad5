@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 simple note pad
 
-**Documentation version:** v2
+**Documentation version:** v3
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -15,7 +15,7 @@ simple note pad
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
 | [Architecture](architecture/README.md) | 15 entries |
-| [Development](development/README.md) | 1 entry |
+| [Development](development/README.md) | 3 entries |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
 | [Maintenance](maintenance/README.md) | 1 entry |
@@ -31,7 +31,7 @@ simple note pad
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 9 requirements |
-| [Changelog](CHANGELOG.md) | 2 versions |
+| [Changelog](CHANGELOG.md) | 3 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -51,7 +51,12 @@ simple note pad
 
 ### Development
 
-- Development phase has not started -- no planning or implementation records to document.
+- No actual development execution data (ticket status, code artifacts, commits, completion dates) was provided -- only the sprint plan and backlog assignment are available.
+- Epics (EPIC-001 through EPIC-005) have no point estimates or assigned role recorded.
+- No record of whether Sprint 1 work has started, is in progress, or is complete.
+- Sprint goal mentions 'local-storage persistence' but no story in this sprint's list (US-001 to US-005) is explicitly the persistence story -- US-008 covers persistence but is assigned to Sprint 2, which is a discrepancy worth confirming.
+- No record of whether Sprint 2 work has started, is in progress, or is complete.
+- US-008 (persistence) is scheduled in Sprint 2 even though Sprint 1's goal explicitly calls for standing up local-storage persistence -- flagging this cross-sprint inconsistency for confirmation, not resolving it.
 
 ### Testing
 
