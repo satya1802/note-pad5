@@ -5,7 +5,7 @@
 <!-- sdlc:auto:start overview -->
 simple note pad
 
-**Documentation version:** v1
+**Documentation version:** v2
 <!-- sdlc:auto:end overview -->
 
 ## Contents
@@ -14,7 +14,7 @@ simple note pad
 | Document | State |
 |---|---|
 | [Requirements](requirements/README.md) | v1 approved |
-| [Architecture](architecture/README.md) | 1 entry |
+| [Architecture](architecture/README.md) | 15 entries |
 | [Development](development/README.md) | 1 entry |
 | [Testing](testing/README.md) | 1 entry |
 | [Deployment](deployment/README.md) | 1 entry |
@@ -31,7 +31,7 @@ simple note pad
 | [Runbook](deployment/runbook.md) | not deployed yet |
 | [Release notes](deployment/release-notes.md) | 0 releases |
 | [Traceability matrix](traceability-matrix.md) | 9 requirements |
-| [Changelog](CHANGELOG.md) | 1 version |
+| [Changelog](CHANGELOG.md) | 2 versions |
 <!-- sdlc:auto:end contents -->
 
 ## Open gaps
@@ -45,7 +45,9 @@ simple note pad
 
 ### Architecture
 
-- Architecture/design phase has not started -- no design artifacts available to document.
+- Input does not map this architecture to specific US-00x requirement ids; traceability from US-001..US-009 to architecture decisions is not explicit in the provided input.
+- Not explicitly linked to a specific US-00x requirement id in the provided input.
+- Choice between App Runner and Elastic Beanstalk for the Web/API Service is not finalized in the input -- both are listed as options.
 
 ### Development
 

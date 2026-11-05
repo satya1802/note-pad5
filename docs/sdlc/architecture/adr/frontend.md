@@ -1,7 +1,7 @@
 <!-- sdlc:auto:start adr -->
 # ADR-0001: Use Next.js 15 for Frontend
 
-Status: Proposed  
+Status: Accepted  
 Date: 2026-11-05
 
 ## Context and Problem Statement
